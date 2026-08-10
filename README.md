@@ -1,4 +1,5 @@
 # 🏠 House Price Prediction using Linear Regression
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/5c1c1d55-b7ec-4b18-b233-d1479659ce5e" />
 
 ## 📌 Project Overview
 This project focuses on predicting **house prices in the Indian real estate market** using **Linear Regression**.  
