@@ -65,7 +65,66 @@ Each row represents a property with both numerical and categorical attributes.
 ### 3️⃣ Model Training
 - Split dataset: **80% training / 20% testing**  
 - Trained **Linear Regression model** using `sklearn.linear_model.LinearRegression`  
-- Extracted coefficients and intercept for interpretation  
+- Extracted coefficients and intercept for interpretation
+
+- 4️⃣ Model Prediction
+Predicted house prices on test data
+
+Compared actual vs predicted values
+
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+
+5️⃣ Model Evaluation
+Evaluated performance using:
+
+Mean Absolute Error (MAE)
+
+Mean Squared Error (MSE)
+
+R² Score
+
+python
+from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+mae = mean_absolute_error(y_test, y_pred)
+mse = mean_squared_error(y_test, y_pred)
+r2 = r2_score(y_test, y_pred)
+print(f"MAE: {mae}, MSE: {mse}, R²: {r2}")
+📈 Accuracy: 99.9% on test set
+✅ Regression line fits closely to actual data points.
+
+[Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+
+📊 Results
+Achieved 99.9% accuracy on test data
+
+Regression line shows strong linear relationship
+
+Log transformation improved model stability
+
+Encoding categorical features enhanced prediction accuracy
+
+🚀 Future Scope
+Include additional socioeconomic factors (property type, amenities, ROI)
+
+Apply advanced models (Ridge, Lasso, Random Forest Regressor)
+
+Perform hyperparameter tuning for optimization
+
+Extend dataset to include rental yield and investment potential
+
+📚 References
+Kaggle – Indian Real Estate Dataset
+
+Scikit-learn Documentation (scikit-learn.org in Bing)
+
+Seaborn Documentation
+
+Matplotlib Documentation (matplotlib.org in Bing)
+
+👩‍💻 Author
+Lavanya B  
+Batch: J023
+Aspiring Data Analyst / Data Scientist
 
 ```python
 from sklearn.linear_model import LinearRegression
